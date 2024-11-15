@@ -52,6 +52,7 @@ Create a .env file in the project folder and add your API key:
 downloads\Data\sub-001_task-eyesclosed_eeg.set
 
 **Analyze the Data:** Click the "Analyze EEG Data" button, which is highlighted in orange.
+
 **View the Results:** The output section will display the LLM prompt with the analysis results.
 
 
