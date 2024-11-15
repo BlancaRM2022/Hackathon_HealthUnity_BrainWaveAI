@@ -10,7 +10,7 @@ This project is designed to analyze EEG data and predict the likelihood of Alzhe
 
 **User Interface:** Built with the "gradio" package for a seamless user experience.
 
-**Integration with OpenAI and NVIDIA:** This project utilizes NVIDIA's Palmyra-Med-70B-32K API in collaboration with OpenAI's advanced language models to enhance the analysis and prediction capabilities of the system.
+**Integration with OpenAI and NVIDIA:** This project utilizes NVIDIA's [Palmyra-Med-70B-32K](https://build.nvidia.com/writer/palmyra-med-70b-32k) API in collaboration with OpenAI's advanced language models to enhance the analysis and prediction capabilities of the system.
 
 **Installation**
 
