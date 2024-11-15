@@ -13,22 +13,27 @@ This project is designed to analyze EEG data and predict the likelihood of Alzhe
 **Integration with OpenAI and NVIDIA:** This project utilizes NVIDIA's Palmyra-Med-70B-32K API in collaboration with OpenAI's advanced language models to enhance the analysis and prediction capabilities of the system.
 
 **Installation**
-Clone the Repository:
 
-#bash
+**Clone the Repository:**
+
+```bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
-Install Dependencies:
+```
+**Install Dependencies:**
 
 Ensure you have Python installed.
 Install the necessary packages using the provided text file:
-#bash
+
+```bash
 pip install -r requirements.txt
-Set Up API Key:
+```
+**Set Up API Key:**
 
 Obtain an API key from [nVIdia](https://build.nvidia.com/explore/discover) by making an account.
 Create a .env file in the project folder and add your API key:
-SECRET_API_KEY=your_api_key_here
+
+```SECRET_API_KEY=your_api_key_here```
 
 **Usage**
 **Download EEG Files:** Obtain the EEG files from the "Data" folder in this repository.
