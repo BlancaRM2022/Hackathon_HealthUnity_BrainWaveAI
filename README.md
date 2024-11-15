@@ -37,10 +37,10 @@ Create a .env file in the project folder and add your API key:
 
 **Usage**
 **Download EEG Files:** Obtain the EEG files from the "Data" folder in this repository.
+s
+**Modify the code:** Change the ML Path to your the path on your local PC in the main code script.
 
 **Run the Main Function:** Execute the main script to start the application.
-
-**Modify the code:** Change the ML Path to your the path on your local PC in the main code script.
 
 **Access the User Interface:** Upon running the main function, a link will be generated. Follow this link to access the user interface.
 
