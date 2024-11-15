@@ -15,32 +15,42 @@ This project is designed to analyze EEG data and predict the likelihood of Alzhe
 **Installation**
 Clone the Repository:
 
-bash
-
+#bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 Install Dependencies:
 
 Ensure you have Python installed.
 Install the necessary packages using the provided text file:
-bash
-
+#bash
 pip install -r requirements.txt
 Set Up API Key:
 
-Obtain an API key from [nVIdia](https://build.nvidia.com/explore/discover) by making an acount.
+Obtain an API key from [nVIdia](https://build.nvidia.com/explore/discover) by making an account.
 Create a .env file in the project folder and add your API key:
 SECRET_API_KEY=your_api_key_here
-Usage
-Run the Main Function:
 
-Execute the main script to start the application:
-bash
+**Usage**
+**Download EEG Files:** Obtain the EEG files from the "Data" folder in this repository.
 
-python main.py
-Interface Interaction:
+**Run the Main Function:** Execute the main script to start the application.
 
-Use the user interface to upload EEG data and receive predictions.
+**Access the User Interface:** Upon running the main function, a link will be generated. Follow this link to access the user interface.
+
+![Screenshot 2024-11-14 at 7 16 48 PM](https://github.com/user-attachments/assets/130c9d1a-20d7-4d33-b54f-e21b83d40497)
+
+
+**Navigate to the Analysis Page:** The link will direct you to the analysis page. 
+
+![Screenshot 2024-11-14 at 7 07 32 PM](https://github.com/user-attachments/assets/d30af847-f060-4223-bc84-ea6228a90bb6)
+**Input EEG File Path:** In the "File Path" section at the top, enter the local path to your EEG file. The path should resemble the following format:
+downloads\Data\sub-001_task-eyesclosed_eeg.set
+
+**Analyze the Data:** Click the "Analyze EEG Data" button, which is highlighted in orange.
+**View the Results:** The output section will display the LLM prompt with the analysis results.
+
+
+
 Contributing
 We welcome contributions from the community. Please feel free to submit issues or pull requests.
 
