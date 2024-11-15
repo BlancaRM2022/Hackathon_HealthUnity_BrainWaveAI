@@ -67,4 +67,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 **Contact**
 
-For questions or support, please contact Soudeh (Venus) Mostaghimi at mostaghs@uci.edu, Trisha Mendoza at trisham2uci.edu, or Blanca Romer at blancr1@uci.edu.
+For questions or support, please contact Soudeh (Venus) Mostaghimi at mostaghs@uci.edu, Trisha Mendoza at trisham@uci.edu, or Blanca Romer at blancr1@uci.edu.
