@@ -57,11 +57,14 @@ downloads\Data\sub-001_task-eyesclosed_eeg.set
 
 
 
-Contributing
+**Contributing**
+
 We welcome contributions from the community. Please feel free to submit issues or pull requests.
 
-License
+**License**
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
-For questions or support, please contact Soudeh (Venus) Mostaghimi at mostaghs@uci.edu, or Trisha Mendoza at trisham2uci.edu, or Blanca Romer at blancr1@uci.edu.
+**Contact**
+
+For questions or support, please contact Soudeh (Venus) Mostaghimi at mostaghs@uci.edu, Trisha Mendoza at trisham2uci.edu, or Blanca Romer at blancr1@uci.edu.
