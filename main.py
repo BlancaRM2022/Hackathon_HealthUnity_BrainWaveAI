@@ -155,8 +155,7 @@ def main(file_path, model_path):  # Main function integrating all steps
     return prompt_answer(percent_control, percent_abnormal, model_means, model_std)
 
 
-def read_the_file(file_path):
-    model_path = "/Users/blancaromeromila/PycharmProjects/Hackathon/centroid_classifier 1.pkl"
+def read_the_file(file_path, model_path):
     if file_path is not None:
         print(f"Attempting to read file: {file_path}")
         llm_answer = main(file_path, model_path)
@@ -165,10 +164,10 @@ def read_the_file(file_path):
         print("no file was selected")
 
 
-def read_eeg_get_answer():
+def read_eeg_get_answer(image_path):
     with gr.Blocks() as demo:
         # Add logo
-        gr.Image("/Users/blancaromeromila/PycharmProjects/Hackathon/logo.jpg", label="Tool Logo", elem_id="logo_image")
+        gr.Image(image_path)
 
         # Add explanation paragraph
         gr.Markdown("This tool combines machine learning and advanced language models to analyze scalp EEG data, \
